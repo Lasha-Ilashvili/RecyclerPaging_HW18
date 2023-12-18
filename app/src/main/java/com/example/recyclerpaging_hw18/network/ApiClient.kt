@@ -17,8 +17,4 @@ object ApiClient {
     }
 
     fun userService(): UserService = retrofit.create(UserService::class.java)
-
-//    fun getRegisterResult(): RegisterService = retrofit.create(RegisterService::class.java)
-//
-//    fun getLoginResult(): LoginService = retrofit.create(LoginService::class.java)
 }
